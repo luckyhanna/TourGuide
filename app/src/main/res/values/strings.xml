@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bucharest Guide</string>
+
+    <string name="monuments_title">Monuments</string>
+    <string name="restaurants_title">Restaurants</string>
+    <string name="hotels_title">Hotels</string>
+    <string name="events_title">Events</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
