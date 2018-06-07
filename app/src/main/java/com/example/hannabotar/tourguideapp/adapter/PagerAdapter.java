@@ -11,11 +11,11 @@ import com.example.hannabotar.tourguideapp.fragment.HotelsFragment;
 import com.example.hannabotar.tourguideapp.fragment.MonumentsFragment;
 import com.example.hannabotar.tourguideapp.fragment.RestaurantsFragment;
 
-public class TypeAdapter extends FragmentPagerAdapter {
+public class PagerAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    public TypeAdapter(Context context, FragmentManager fm) {
+    public PagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }

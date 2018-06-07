@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.hannabotar.tourguideapp.R;
-import com.example.hannabotar.tourguideapp.adapter.TypeAdapter;
+import com.example.hannabotar.tourguideapp.adapter.PagerAdapter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         // Create an adapter that knows which fragment should be shown on each page
-        TypeAdapter adapter = new TypeAdapter(this, getSupportFragmentManager());
+        PagerAdapter adapter = new PagerAdapter(this, getSupportFragmentManager());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
