@@ -6,6 +6,13 @@
     <string name="hotels_title">Hotels</string>
     <string name="events_title">Events</string>
 
+    <string name="monument_title">Monument</string>
+    <string name="restaurant_title">Restaurant</string>
+    <string name="hotel_title">Hotel</string>
+    <string name="event_title">Event</string>
+
     <string name="coming_soon">Coming soon…</string>
     <string name="no_rating">No rating</string>
+    <string name="details">Details:</string>
+    <string name="no_details">No details available.</string>
 </resources>

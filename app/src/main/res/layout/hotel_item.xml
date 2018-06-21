@@ -28,16 +28,31 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:gravity="center">
-        <ImageView
-            android:id="@+id/hotel_photo"
-            android:layout_width="@dimen/hotelImageWidth"
-            android:layout_height="@dimen/hotelImageHeight"
-            android:scaleType="centerInside"
-            android:layout_gravity="center"
-            android:paddingLeft="@dimen/padding_10"
-            android:paddingStart="@dimen/padding_10"
-            tools:src="@drawable/default_img"
-            />
+        <RelativeLayout
+            android:id="@+id/image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/hotel_photo"
+                android:layout_width="@dimen/hotelImageWidth"
+                android:layout_height="@dimen/hotelImageHeight"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingStart="@dimen/padding_10"
+                tools:src="@drawable/default_img"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/info"
+                />
+        </RelativeLayout>
+
         <RelativeLayout
             android:id="@+id/hotel_item"
             android:layout_width="match_parent"

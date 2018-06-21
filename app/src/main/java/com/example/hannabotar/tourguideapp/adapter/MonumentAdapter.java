@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.model.Monument;
@@ -23,6 +24,9 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
 
     @BindView(R.id.monument_title)
     TextView monumentTitle;
+
+    @BindView(R.id.image_layout)
+    RelativeLayout imageLayout;
 
     @BindView(R.id.monument_photo)
     ImageView monumentPhoto;
@@ -99,6 +103,14 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
             monumentWebsite.setVisibility(View.GONE);
             webLayout.setVisibility(View.GONE);
         }
+
+        imageLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
+                t.show();
+            }
+        });
 
         return listItemView;
     }

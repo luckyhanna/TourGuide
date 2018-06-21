@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.model.Restaurant;
@@ -27,6 +28,9 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
 
     @BindView(R.id.restaurant_cuisine)
     TextView restaurantCuisine;
+
+    @BindView(R.id.image_layout)
+    RelativeLayout imageLayout;
 
     @BindView(R.id.restaurant_photo)
     ImageView restaurantPhoto;
@@ -107,6 +111,14 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
             restaurantWebsite.setVisibility(View.GONE);
             webLayout.setVisibility(View.GONE);
         }
+
+        imageLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
+                t.show();
+            }
+        });
 
         return listItemView;
     }

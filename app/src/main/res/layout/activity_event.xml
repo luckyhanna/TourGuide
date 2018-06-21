@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blackOverlay"
+    android:padding="@dimen/padding_10"
+    tools:context="com.example.hannabotar.tourguideapp.activity.EventActivity">
+
+    <ImageView
+        android:id="@+id/event_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageDetailHeight"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/default_img"/>
+
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhitish"
+        android:textSize="28sp"
+        android:paddingTop="@dimen/padding_10"
+        android:paddingBottom="@dimen/padding_10"
+        tools:text="Concert Cameral"/>
+
+    <RelativeLayout
+        android:id="@+id/location_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_10"
+            android:layout_marginEnd="@dimen/padding_10"
+            android:scaleType="fitCenter"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/location2" />
+        <TextView
+            android:id="@+id/event_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/location_icon"
+            android:layout_toEndOf="@+id/location_icon"
+            android:autoLink="map"
+            android:textColor="@color/colorWhitish"
+            tools:text="Piata Victoriei nr. 34, Sector 1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/calendar_icon"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_10"
+            android:layout_marginEnd="@dimen/padding_10"
+            android:scaleType="fitCenter"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/calendar" />
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/calendar_icon"
+            android:layout_toEndOf="@+id/calendar_icon"
+            android:textColor="@color/colorWhitish"
+            tools:text="Jul 8 2018, 12:00"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_10"
+        android:textColor="@color/colorWhitish"
+        android:text="@string/details"
+        android:textSize="20sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10">
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhitish"
+            tools:text="blabl ablabl ablablablablab lablabla blabl ablablablablablab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab lablabla blablablablablablablablablablabla blab lablablab lablabla blabl ablabla blablablablablablablablablablabla bla blablabla blab lablab lablab labla blabl ablablab lablablablabl ablabla blablablabla bl abl ab lab lablab labla blabl abla bla blablabla blabla blabla blabla blabl ablabl ablabl ab lablabla"/>
+    </ScrollView>
+
+</LinearLayout>

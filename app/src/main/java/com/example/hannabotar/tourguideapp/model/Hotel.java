@@ -1,6 +1,8 @@
 package com.example.hannabotar.tourguideapp.model;
 
-public class Hotel {
+import java.io.Serializable;
+
+public class Hotel implements Serializable {
 
     private String name;
     private String description;

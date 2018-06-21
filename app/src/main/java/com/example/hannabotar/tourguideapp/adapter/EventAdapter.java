@@ -1,6 +1,7 @@
 package com.example.hannabotar.tourguideapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -8,11 +9,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
+import com.example.hannabotar.tourguideapp.activity.EventActivity;
 import com.example.hannabotar.tourguideapp.model.Event;
 import com.example.hannabotar.tourguideapp.model.Event;
+import com.example.hannabotar.tourguideapp.util.Constants;
+import com.example.hannabotar.tourguideapp.util.Util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -25,6 +31,9 @@ public class EventAdapter extends ArrayAdapter<Event> {
 
     @BindView(R.id.event_title)
     TextView eventTitle;
+
+    @BindView(R.id.image_layout)
+    RelativeLayout imageLayout;
 
     @BindView(R.id.event_photo)
     ImageView eventPhoto;
@@ -52,7 +61,7 @@ public class EventAdapter extends ArrayAdapter<Event> {
 
         ButterKnife.bind(this, listItemView);
 
-        Event currentEvent = getItem(position);
+        final Event currentEvent = getItem(position);
 
         eventTitle.setText(currentEvent.getName());
 
@@ -67,16 +76,23 @@ public class EventAdapter extends ArrayAdapter<Event> {
         eventLocation.setText(currentEvent.getLocation());
 
         if (currentEvent.getDate() != null) {
-            eventDate.setText(formatDate(currentEvent.getDate()));
+            eventDate.setText(Util.formatDate(currentEvent.getDate()));
         } else {
             eventDate.setText(R.string.coming_soon);
         }
 
+        imageLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /*Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
+                t.show();*/
+                Intent intent = new Intent(getContext(), EventActivity.class);
+                intent.putExtra(Constants.EXTRA_EVENT, currentEvent);
+                getContext().startActivity(intent);
+            }
+        });
+
         return listItemView;
     }
 
-    private String formatDate(Date date) {
-        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy, h:mm a");
-        return sdf.format(date);
-    }
 }

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.model.Hotel;
@@ -25,6 +26,9 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
 
     @BindView(R.id.hotel_title)
     TextView hotelTitle;
+
+    @BindView(R.id.image_layout)
+    RelativeLayout imageLayout;
 
     @BindView(R.id.hotel_photo)
     ImageView hotelPhoto;
@@ -145,6 +149,14 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
             // show no rating text?...
             starsLayout.setVisibility(View.INVISIBLE);
         }
+
+        imageLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
+                t.show();
+            }
+        });
 
         return listItemView;
     }

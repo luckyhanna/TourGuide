@@ -1,8 +1,9 @@
 package com.example.hannabotar.tourguideapp.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Event {
+public class Event implements Serializable {
 
     private String name;
     private String description;

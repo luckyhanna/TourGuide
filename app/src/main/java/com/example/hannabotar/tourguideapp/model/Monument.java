@@ -1,6 +1,8 @@
 package com.example.hannabotar.tourguideapp.model;
 
-public class Monument {
+import java.io.Serializable;
+
+public class Monument implements Serializable {
 
     private String name;
     private String description;

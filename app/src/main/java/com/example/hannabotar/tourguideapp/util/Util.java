@@ -5,6 +5,7 @@ import com.example.hannabotar.tourguideapp.model.Hotel;
 import com.example.hannabotar.tourguideapp.model.Monument;
 import com.example.hannabotar.tourguideapp.model.Restaurant;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -39,6 +40,7 @@ public class Util {
                 .withName("Rudimental")
                 .withLocation("Arenele Romane")
                 .withDate(new Date())
+                .withDescription("blabl ablabl ablablablablab lablabla blabl ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl a b l ab lab lab lab blablab lablabla blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab lablabla blablablablablablablablablablabla blab lablablab lablabla blabl ablabla blablablablablablablablablablabla bla blablabla blab lablab lablab labla blabl ablablab lablablablabl ablabla blablablabla bl abl ab lab lablab labla blabl abla bla blablabla blabla blabla blabla blabl ablabl ablabl ab lablabla")
                 .build();
         eventList.add(event);
 
@@ -110,6 +112,11 @@ public class Util {
         restaurantList.add(restaurant);
 
         return restaurantList;
+    }
+
+    public static String formatDate(Date date) {
+        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy, h:mm a");
+        return sdf.format(date);
     }
 
 }
