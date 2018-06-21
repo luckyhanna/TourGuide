@@ -64,7 +64,16 @@ public class Util {
         Hotel hotel = new Hotel.Builder()
                 .withName("Athene Palace Hilton")
                 .withAddress("Calea Victoriei nr. 11\nSector 1")
+                .withWebsite("www.aph.ro")
+                .withEmail("contact@aph.ro")
+                .withPhone("021-142354")
                 .withStars(5)
+                .build();
+        hotelList.add(hotel);
+
+        hotel = new Hotel.Builder()
+                .withName("Allegro")
+                .withAddress("Calea Calarasi nr. 2")
                 .build();
         hotelList.add(hotel);
 

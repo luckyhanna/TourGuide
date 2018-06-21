@@ -3,6 +3,9 @@
     <dimen name="iconWidth">20dp</dimen>
     <dimen name="iconHeight">20dp</dimen>
 
+    <dimen name="starWidth">15dp</dimen>
+    <dimen name="starHeight">15dp</dimen>
+
     <dimen name="monumentCardHeight">200dp</dimen>
     <dimen name="monumentImageHeight">180dp</dimen>
     <dimen name="monumentImageWidth">130dp</dimen>
@@ -10,6 +13,10 @@
     <dimen name="eventCardHeight">180dp</dimen>
     <dimen name="eventImageHeight">160dp</dimen>
     <dimen name="eventImageWidth">130dp</dimen>
+
+    <dimen name="hotelCardHeight">200dp</dimen>
+    <dimen name="hotelImageHeight">180dp</dimen>
+    <dimen name="hotelImageWidth">130dp</dimen>
 
     <dimen name="padding_5">5dp</dimen>
     <dimen name="padding_8">8dp</dimen>

@@ -42,17 +42,6 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
     @BindView(R.id.monument_website)
     TextView monumentWebsite;
 
-    @BindView(R.id.location_icon)
-    ImageView locationIcon;
-    @BindView(R.id.phone_icon)
-    ImageView phoneIcon;
-    @BindView(R.id.mail_icon)
-    ImageView mailIcon;
-    @BindView(R.id.web_icon)
-    ImageView webIcon;
-
-    @BindView(R.id.location_layout)
-    RelativeLayout locationLayout;
     @BindView(R.id.phone_layout)
     RelativeLayout phoneLayout;
     @BindView(R.id.mail_layout)
