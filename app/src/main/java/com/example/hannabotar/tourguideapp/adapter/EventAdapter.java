@@ -14,6 +14,8 @@ import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.model.Event;
 import com.example.hannabotar.tourguideapp.model.Event;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import butterknife.BindView;
@@ -27,8 +29,14 @@ public class EventAdapter extends ArrayAdapter<Event> {
     @BindView(R.id.event_photo)
     ImageView eventPhoto;
 
+    @BindView(R.id.background_photo)
+    ImageView backgroundPhoto;
+
     @BindView(R.id.event_location)
     TextView eventLocation;
+
+    @BindView(R.id.event_date)
+    TextView eventDate;
 
     public EventAdapter(@NonNull Context context, @NonNull List<Event> objects) {
         super(context, 0, objects);
@@ -50,12 +58,25 @@ public class EventAdapter extends ArrayAdapter<Event> {
 
         if (currentEvent.getPhotoId() != null) {
             eventPhoto.setImageResource(currentEvent.getPhotoId());
+            backgroundPhoto.setImageResource(currentEvent.getPhotoId());
         } else {
             eventPhoto.setImageResource(R.drawable.default_img);
+            backgroundPhoto.setImageResource(R.drawable.default_img);
         }
 
         eventLocation.setText(currentEvent.getLocation());
 
+        if (currentEvent.getDate() != null) {
+            eventDate.setText(formatDate(currentEvent.getDate()));
+        } else {
+            eventDate.setText(R.string.coming_soon);
+        }
+
         return listItemView;
+    }
+
+    private String formatDate(Date date) {
+        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy, h:mm a");
+        return sdf.format(date);
     }
 }

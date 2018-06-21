@@ -49,6 +49,12 @@ public class Util {
                 .build();
         eventList.add(event);
 
+        event = new Event.Builder()
+                .withName("Concert Alexandrina & Band")
+                .withLocation("Copper's Pub")
+                .build();
+        eventList.add(event);
+
         return eventList;
     }
 
