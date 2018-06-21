@@ -95,6 +95,17 @@ public class Util {
                 .withType("Pub & more")
                 .withCuisineType("International")
                 .withAddress("Str. George Enescu nr. 3\nSector 2")
+                .withWebsite("www.journeypub.ro")
+                .build();
+        restaurantList.add(restaurant);
+
+        restaurant = new Restaurant.Builder()
+                .withName("Shift Pub")
+                .withType("Eatery")
+                .withCuisineType("Italian, Romanian")
+                .withAddress("Str. Avram nr. 24")
+                .withPhone("021-9876541")
+                .withEmail("rezervari@shiftpub.ro")
                 .build();
         restaurantList.add(restaurant);
 

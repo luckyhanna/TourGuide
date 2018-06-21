@@ -18,6 +18,10 @@
     <dimen name="hotelImageHeight">180dp</dimen>
     <dimen name="hotelImageWidth">130dp</dimen>
 
+    <dimen name="restaurantCardHeight">200dp</dimen>
+    <dimen name="restaurantImageHeight">180dp</dimen>
+    <dimen name="restaurantImageWidth">130dp</dimen>
+
     <dimen name="padding_5">5dp</dimen>
     <dimen name="padding_8">8dp</dimen>
     <dimen name="padding_10">10dp</dimen>
