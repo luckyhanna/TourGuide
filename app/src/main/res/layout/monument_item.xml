@@ -1,35 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="@dimen/monumentCardHeight"
+    android:padding="@dimen/padding_8"
+    android:background="@drawable/default_img"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <LinearLayout
-        android:id="@+id/monument_item"
+    <ImageView
+        android:id="@+id/background_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:focusable="false"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/default_img"/>
 
-        <TextView
-            android:id="@+id/monument_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="Muzeul Taranului"/>
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackOverlay" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
         <ImageView
             android:id="@+id/monument_photo"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingStart="@dimen/padding_10"
+            tools:src="@drawable/default_img"
+            />
+        <RelativeLayout
+            android:id="@+id/monument_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerInside"
-            tools:src="@drawable/ic_launcher_background"
-            />
+            android:paddingLeft="@dimen/padding_8"
+            android:paddingRight="@dimen/padding_8"
+            android:paddingBottom="@dimen/padding_8"
+            android:paddingTop="@dimen/padding_10">
 
-        <TextView
-            android:id="@+id/monument_address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="Piata Vitoriei nr. 34 \nSector 1"/>
+            <TextView
+                android:id="@+id/monument_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Muzeul Taranului"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhitish"
+                android:paddingBottom="@dimen/padding_8"/>
+
+            <LinearLayout
+                android:id="@+id/monument_contact_layout"
+                android:layout_below="@+id/monument_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/location_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:id="@+id/location_icon"
+                        android:layout_width="@dimen/iconWidth"
+                        android:layout_height="@dimen/iconHeight"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:src="@drawable/location2" />
+                    <TextView
+                        android:id="@+id/monument_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/location_icon"
+                        android:layout_toEndOf="@+id/location_icon"
+                        android:autoLink="map"
+                        android:textColor="@color/colorWhitish"
+                        tools:text="Piata Victoriei nr. 34, Sector 1sssssssssssssssssssssssssss"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/phone_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:id="@+id/phone_icon"
+                        android:layout_width="@dimen/iconWidth"
+                        android:layout_height="@dimen/iconHeight"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:src="@drawable/phone2" />
+
+                    <TextView
+                        android:id="@+id/monument_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/phone_icon"
+                        android:layout_toEndOf="@+id/phone_icon"
+                        android:autoLink="phone"
+                        android:textColor="@color/colorWhitish"
+                        android:textColorLink="@color/colorWhitish"
+                        tools:text="021 222 222"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mail_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:id="@+id/mail_icon"
+                        android:layout_width="@dimen/iconWidth"
+                        android:layout_height="@dimen/iconHeight"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:src="@drawable/email2" />
+
+                    <TextView
+                        android:id="@+id/monument_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/mail_icon"
+                        android:layout_toEndOf="@+id/mail_icon"
+                        android:autoLink="email"
+                        android:textColor="@color/colorWhitish"
+                        android:textColorLink="@color/colorWhitish"
+                        tools:text="mtr@email.com"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/web_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <ImageView
+                        android:id="@+id/web_icon"
+                        android:layout_width="@dimen/iconWidth"
+                        android:layout_height="@dimen/iconHeight"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:src="@drawable/home2" />
+
+                    <TextView
+                        android:id="@+id/monument_website"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/web_icon"
+                        android:layout_toEndOf="@+id/web_icon"
+                        android:autoLink="web"
+                        android:textColor="@color/colorWhitish"
+                        android:textColorLink="@color/colorWhitish"
+                        tools:text="www.mtr.ro"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
 
     </LinearLayout>
 

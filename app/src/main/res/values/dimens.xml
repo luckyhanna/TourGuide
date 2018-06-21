@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iconWidth">20dp</dimen>
+    <dimen name="iconHeight">20dp</dimen>
+
+    <dimen name="monumentCardHeight">200dp</dimen>
+
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+
+</resources>

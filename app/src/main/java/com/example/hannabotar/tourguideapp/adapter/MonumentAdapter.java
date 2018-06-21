@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.hannabotar.tourguideapp.R;
@@ -26,8 +27,38 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
     @BindView(R.id.monument_photo)
     ImageView monumentPhoto;
 
+    @BindView(R.id.background_photo)
+    ImageView backgroundPhoto;
+
     @BindView(R.id.monument_address)
     TextView monumentAddress;
+
+    @BindView(R.id.monument_phone)
+    TextView monumentPhone;
+
+    @BindView(R.id.monument_email)
+    TextView monumentEmail;
+
+    @BindView(R.id.monument_website)
+    TextView monumentWebsite;
+
+    @BindView(R.id.location_icon)
+    ImageView locationIcon;
+    @BindView(R.id.phone_icon)
+    ImageView phoneIcon;
+    @BindView(R.id.mail_icon)
+    ImageView mailIcon;
+    @BindView(R.id.web_icon)
+    ImageView webIcon;
+
+    @BindView(R.id.location_layout)
+    RelativeLayout locationLayout;
+    @BindView(R.id.phone_layout)
+    RelativeLayout phoneLayout;
+    @BindView(R.id.mail_layout)
+    RelativeLayout mailLayout;
+    @BindView(R.id.web_layout)
+    RelativeLayout webLayout;
 
     public MonumentAdapter(@NonNull Context context, @NonNull List<Monument> objects) {
         super(context, 0, objects);
@@ -49,11 +80,36 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
 
         if (currentMonument.getPhotoId() != null) {
             monumentPhoto.setImageResource(currentMonument.getPhotoId());
+            backgroundPhoto.setImageResource(currentMonument.getPhotoId());
         } else {
             monumentPhoto.setImageResource(R.drawable.default_img);
+            backgroundPhoto.setImageResource(R.drawable.default_img);
         }
 
         monumentAddress.setText(currentMonument.getAddress());
+
+        if (currentMonument.getPhone() != null) {
+            phoneLayout.setVisibility(View.VISIBLE);
+            monumentPhone.setText(currentMonument.getPhone());
+        } else {
+            monumentPhone.setVisibility(View.GONE);
+            phoneLayout.setVisibility(View.GONE);
+        }
+
+        if (currentMonument.getEmail() != null) {
+            mailLayout.setVisibility(View.VISIBLE);
+            monumentEmail.setText(currentMonument.getEmail());
+        } else {
+            mailLayout.setVisibility(View.GONE);
+        }
+
+        if (currentMonument.getWebsite() != null) {
+            webLayout.setVisibility(View.VISIBLE);
+            monumentWebsite.setText(currentMonument.getWebsite());
+        } else {
+            monumentWebsite.setVisibility(View.GONE);
+            webLayout.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }

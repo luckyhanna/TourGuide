@@ -17,12 +17,15 @@ public class Util {
         Monument monument = new Monument.Builder()
                 .withName("Muzeul taranului")
                 .withAddress("Piata Victoriei nr. 34\nSector 1")
+                .withWebsite("www.mtr.ro")
+                .withEmail("contact@mtr.ro")
                 .build();
         monumentList.add(monument);
 
         monument = new Monument.Builder()
                 .withName("Muzeul de istorie")
                 .withAddress("Calea Victoriei nr. 128\nSector 1")
+                .withPhone("021-142354")
                 .build();
         monumentList.add(monument);
 
