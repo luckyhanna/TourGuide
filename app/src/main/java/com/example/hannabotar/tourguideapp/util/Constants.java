@@ -11,4 +11,5 @@ public class Constants {
     public static final String EXTRA_MONUMENT = "extra_monument";
     public static final String EXTRA_RESTAURANT = "extra_restaurant";
 
+    public static final String ACTIVE_TAB = "active_tab";
 }

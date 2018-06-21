@@ -20,6 +20,7 @@ public class Util {
                 .withAddress("Piata Victoriei nr. 34\nSector 1")
                 .withWebsite("www.mtr.ro")
                 .withEmail("contact@mtr.ro")
+                .withDescription("blabl ablabl ablablablablab lablabla blabl ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl a b l ab lab lab lab blablab lablabla blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab lablabla blablablablablablablablablablabla blab lablablab lablabla blabl ablabla blablablablablablablablablablabla bla blablabla blab lablab lablab labla blabl ablablab lablablablabl ablabla blablablabla bl abl ab lab lablab labla blabl abla bla blablabla blabla blabla blabla blabl ablabl ablabl ab lablabla")
                 .build();
         monumentList.add(monument);
 
@@ -70,6 +71,28 @@ public class Util {
                 .withEmail("contact@aph.ro")
                 .withPhone("021-142354")
                 .withStars(5)
+                .withDescription("blabl ablabl ablablablablab lablabla blabl \n" +
+                        "ablablablablablab la AAAAAAAAAAAAAAAAA la blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b DDDDDDDDDDD lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "ablabla SSSSSSSSSSSSSSSSSSSSSSSSSSSSS lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +"ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl \n" +
+                        "a b l ab lab lab lab blablab lablabla \n" +
+                        "blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab \n" +
+                        "lablabla blablab  AAAAAAAAAAAAAAAAAAAAAAAAA  blablabla blab lablablab lablabla blabl ablabla blablablablablablablablablablabla bla blablabla blab lablab lablab labla blabl ablablab lablablablabl ablabla blablablabla bl abl ab lab lablab labla blabl abla bla blablabla " +
+                        "blabla blabla blabla blabl ablabl ablabl ab GGGGGGGGGGGGGGGGG")
                 .build();
         hotelList.add(hotel);
 
@@ -98,6 +121,7 @@ public class Util {
                 .withCuisineType("International")
                 .withAddress("Str. George Enescu nr. 3\nSector 2")
                 .withWebsite("www.journeypub.ro")
+                .withDescription("blabl ablabl ablablablablab lablabla blabl ablablablablablab lablablabla blablab blabl ablabl ablablablablab lablabla blabl abl a b l ab lab lab lab blablab lablabla blab lablablabla blablabla blablablabl ablablablabla blabl ablab labla blab lablab lablabla blablablablablablablablablablabla blab lablablab lablabla blabl ablabla blablablablablablablablablablabla bla blablabla blab lablab lablab labla blabl ablablab lablablablabl ablabla blablablabla bl abl ab lab lablab labla blabl abla bla blablabla blabla blabla blabla blabl ablabl ablabl ab lablabla")
                 .build();
         restaurantList.add(restaurant);
 

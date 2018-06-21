@@ -3,8 +3,11 @@ package com.example.hannabotar.tourguideapp.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.hannabotar.tourguideapp.R;
@@ -31,6 +34,11 @@ public class EventActivity extends AppCompatActivity {
 
     @BindView(R.id.event_description)
     TextView eventDescription;
+
+    @BindView(R.id.scroll_main)
+    ScrollView scrollMain;
+    @BindView(R.id.scroll_description)
+    ScrollView scrollDescription;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,5 +71,31 @@ public class EventActivity extends AppCompatActivity {
         } else {
             eventDescription.setText(R.string.no_details);
         }
+
+        scrollMain.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                scrollDescription.getParent().requestDisallowInterceptTouchEvent(false);
+                return false;
+            }
+        });
+        scrollDescription.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event)
+            {
+                // Disallow the touch request for parent scroll on touch of child view
+                v.getParent().requestDisallowInterceptTouchEvent(true);
+                return false;
+            }
+        });
+    }
+
+    @Override
+    public Intent getParentActivityIntent() {
+        final Bundle bundle = new Bundle();
+        final Intent intent = new Intent(this, MainActivity.class);
+
+        bundle.putInt(Constants.ACTIVE_TAB, 3);
+        intent.putExtras(bundle);
+
+        return intent;
     }
 }

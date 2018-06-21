@@ -1,6 +1,7 @@
 package com.example.hannabotar.tourguideapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -14,8 +15,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
+import com.example.hannabotar.tourguideapp.activity.HotelActivity;
 import com.example.hannabotar.tourguideapp.model.Hotel;
 import com.example.hannabotar.tourguideapp.model.Hotel;
+import com.example.hannabotar.tourguideapp.util.Constants;
 
 import java.util.List;
 
@@ -82,7 +85,7 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
 
         ButterKnife.bind(this, listItemView);
 
-        Hotel currentHotel = getItem(position);
+        final Hotel currentHotel = getItem(position);
 
         hotelTitle.setText(currentHotel.getName());
 
@@ -153,8 +156,9 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
         imageLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
-                t.show();
+                Intent intent = new Intent(getContext(), HotelActivity.class);
+                intent.putExtra(Constants.EXTRA_HOTEL, currentHotel);
+                getContext().startActivity(intent);
             }
         });
 

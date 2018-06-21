@@ -84,8 +84,6 @@ public class EventAdapter extends ArrayAdapter<Event> {
         imageLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
-                t.show();*/
                 Intent intent = new Intent(getContext(), EventActivity.class);
                 intent.putExtra(Constants.EXTRA_EVENT, currentEvent);
                 getContext().startActivity(intent);

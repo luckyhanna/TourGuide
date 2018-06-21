@@ -1,6 +1,7 @@
 package com.example.hannabotar.tourguideapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -13,7 +14,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
+import com.example.hannabotar.tourguideapp.activity.MonumentActivity;
 import com.example.hannabotar.tourguideapp.model.Monument;
+import com.example.hannabotar.tourguideapp.util.Constants;
 
 import java.util.List;
 
@@ -67,7 +70,7 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
 
         ButterKnife.bind(this, listItemView);
 
-        Monument currentMonument = getItem(position);
+        final Monument currentMonument = getItem(position);
 
         monumentTitle.setText(currentMonument.getName());
 
@@ -107,8 +110,9 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
         imageLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast t = Toast.makeText(getContext(), "clicked", Toast.LENGTH_SHORT);
-                t.show();
+                Intent intent = new Intent(getContext(), MonumentActivity.class);
+                intent.putExtra(Constants.EXTRA_MONUMENT, currentMonument);
+                getContext().startActivity(intent);
             }
         });
 

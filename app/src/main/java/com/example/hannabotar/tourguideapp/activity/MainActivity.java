@@ -1,5 +1,6 @@
 package com.example.hannabotar.tourguideapp.activity;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.adapter.PagerAdapter;
+import com.example.hannabotar.tourguideapp.util.Constants;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -36,5 +38,12 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+
+        final Intent intent = getIntent();
+
+        if (intent != null && intent.hasExtra(Constants.ACTIVE_TAB)) {
+            final int tab = intent.getExtras().getInt(Constants.ACTIVE_TAB);
+            viewPager.setCurrentItem(tab);
+        }
     }
 }
