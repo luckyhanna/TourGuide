@@ -1,5 +1,6 @@
 package com.example.hannabotar.tourguideapp.util;
 
+import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.model.Event;
 import com.example.hannabotar.tourguideapp.model.Hotel;
 import com.example.hannabotar.tourguideapp.model.Monument;
@@ -35,6 +36,7 @@ public class Util {
                         "Decorative Art and Industrial Art in Bucharest, " +
                         "founded by him in 1906 of “households authentic and complete in all regions most significant inhabited by Romanian” " +
                         "the project materialized in 1909 by exposing the museum of peasant houses in Gorj county.")
+                .withPhotoId(R.drawable.village_museum_r)
                 .build();
         monumentList.add(monument);
 
@@ -45,6 +47,7 @@ public class Util {
                 .withWebsite("http://www.herastrauparc.ro/")
                 .withDescription("Herăstrău Park (Romanian: Parcul Herăstrău) or King Michael I Park " +
                         "is a large park on the northern side of Bucharest, Romania, around Lake Herăstrău, one of the lakes formed by the Colentina River.")
+                .withPhotoId(R.drawable.herastrau_r)
                 .build();
         monumentList.add(monument);
 
@@ -60,6 +63,7 @@ public class Util {
                         "\nFrom an architectural point of view, the Parliament Palace is one of the most controversial buildings in Romania: " +
                         "Anca Petrescu identified it with the Buckingham Palace in London and the Versailles Palace in France, " +
                         "and the architects of the time with the „little Phenian”, with an eclectic style, loaded with contradictory elements.")
+                .withPhotoId(R.drawable.parliament_r)
                 .build();
         monumentList.add(monument);
 
@@ -78,6 +82,7 @@ public class Util {
                         "A 75-sqm long and 3-m wide fresco by Costin Petrescu decorates the inside of the circular wall of the concert hall. Painted using the al fresco technique, the piece depicts the most important moments of Romanian history, starting with the conquest of Dacia by Roman emperor Trajan and ending with the realization of Greater Romania in 1918.\n" +
                         "\n" +
                         "Recognized as a symbol of Romanian culture, the building has been inscribed in 2007 on the list of the Label of European Heritage sites.")
+                .withPhotoId(R.drawable.atheneum_r)
                 .build();
         monumentList.add(monument);
 
@@ -100,6 +105,7 @@ public class Util {
                         "\n" +
                         "This unique museum is hosted by the former Romanit palace. The building, an example of modern Bucharest architecture, " +
                         "was recently restored and refurbished. Wherever possible, displays suggest the original layout and atmosphere of individual collections.")
+                .withPhotoId(R.drawable.art_collections_r)
                 .build();
         monumentList.add(monument);
 
@@ -114,6 +120,7 @@ public class Util {
                         "including a Palm Sunday pilgrimage. The Orthodox Divine Liturgy at the cathedral is known for its a cappella choir, " +
                         "a common practice shared by all the Orthodox churches, in both their prayer services and liturgical rites. " +
                         "The Romanian Orthodox Patriarchal Cathedral is a designated Historical monument—Monument istoric of Romania.")
+                .withPhotoId(R.drawable.cathedral_r)
                 .build();
         monumentList.add(monument);
 
@@ -145,6 +152,7 @@ public class Util {
                         "the Alexandru Averescu Boulevard and with the Alexandru Constantinescu Boulevard. " +
                         "It is one of the emblematic monuments of the capital and a tourist sight just as important as the C.E.C. Palace, " +
                         "the Parliament Palace or the Romanian Athenaeum.")
+                .withPhotoId(R.drawable.triumph_arch_r)
                 .build();
         monumentList.add(monument);
 
@@ -163,6 +171,7 @@ public class Util {
                         "the festival's sixth edition brings to Romania's capital, between July 3rd and 9th, 2017, " +
                         "renown names of the international jazz scene, young talents, journalists, theoreticians, musicians and jazz specialists " +
                         "for live concerts in George Enescu Square and special events at ARCUB.")
+                .withPhotoId(R.drawable.bjf_r)
                 .build();
         eventList.add(event);
 
@@ -181,6 +190,7 @@ public class Util {
                         "Tineți minte: 7 – 8 IULIE, sâmbătă și duminică, două zile de LOVE Yard Sale, la Coppers Pub.\n" +
                         "\n" +
                         "INTRAREA ESTE GRATUITĂ PENTRU VIZITATORI")
+                .withPhotoId(R.drawable.love_yard_sale_r)
                 .build();
         eventList.add(event);
 
@@ -188,6 +198,7 @@ public class Util {
                 .withName("Sorry nature, I’m late!")
                 .withLocation("Strada Leonida 19, Bucharest, Romania")
                 .withDate(getDate("21/06/2018 18:00"))
+                .withPhotoId(R.drawable.sorry_r)
                 .build();
         eventList.add(event);
 
@@ -195,6 +206,7 @@ public class Util {
                 .withName("Summer Well 2018")
                 .withLocation("Strada Știrbei Vodă 36, Buftea 070000")
                 .withDate(getDate("10/08/2018 18:00"))
+                .withPhotoId(R.drawable.summerwell_r)
                 .build();
         eventList.add(event);
 
@@ -224,6 +236,7 @@ public class Util {
                         "Business center, Executive Floor and Lounge\n" +
                         "Complimentary WiFi in rooms, restaurants and all public areas\n" +
                         "Over a century of hotel history")
+                .withPhotoId(R.drawable.hilton_r)
                 .build();
         hotelList.add(hotel);
 
@@ -241,6 +254,7 @@ public class Util {
                         "For a complete pampering session, we have also prepared a variety of wellness & SPA treatments.\n" +
                         "Due to its strategic positioning, Sheraton Bucharest Hotel gives you easy access to all city’s areas, among the closest tourist attractions being the old city, famous for its night life and restaurants, the Romanian Atheneum, the romantic Ioanid park, Herastrau park, the biggest park of the city, House of Parliament, the second largest building in the world and Victoriei Avenue, the most famous shopping street.\n" +
                         "The attention to details is part of our philosophy of making a closer connection to our guests needs and interests. We are just a click away, at your service!")
+                .withPhotoId(R.drawable.sheraton_r)
                 .build();
         hotelList.add(hotel);
 
@@ -259,6 +273,7 @@ public class Util {
                         "A spa and fitness center, outdoor pool and Jacuzzi, and casino provide abundant opportunities for fun and relaxation. " +
                         "12 meeting rooms with floor-to-ceiling windows and state-of-the-art audiovisual equipment accommodate conferences and special events.")
                 .withStars(5)
+                .withPhotoId(R.drawable.radissonblu_r)
                 .build();
         hotelList.add(hotel);
 
@@ -273,6 +288,7 @@ public class Util {
                         "You can pick out the next city attraction to visit from your private balcony or the rooftop Health Club and terrace. " +
                         "After a meeting with clients, enjoy the sunset from our 21st-floor Club InterContinental Lounge.")
                 .withStars(5)
+                .withPhotoId(R.drawable.intercontinental_r)
                 .build();
         hotelList.add(hotel);
 
@@ -290,6 +306,7 @@ public class Util {
                         "\n" +
                         "In our many years on the Bucharest accommodation and food service scene, a great number of institutions, companies and people have enjoyed our hospitality. We are always here to welcome you with an intimate and captivating atmosphere!")
                 .withStars(3)
+                .withPhotoId(R.drawable.rembrandt_r)
                 .build();
         hotelList.add(hotel);
 
@@ -304,6 +321,7 @@ public class Util {
                         "Start your day brightly with a tasty buffet breakfast in the sunlit restaurant, " +
                         "and savour drinks with a view on the terrace at Novotel.")
                 .withStars(4)
+                .withPhotoId(R.drawable.novotel_r)
                 .build();
         hotelList.add(hotel);
 
@@ -317,6 +335,7 @@ public class Util {
                         "one century old and one million stories rich, has come to life again.\n" +
                         "Creating a fantastic ambiance, its design melts heritage and novelty, mixing Art Nouveau architecture with contemporary style.")
                 .withStars(4)
+                .withPhotoId(R.drawable.cismigiu_r)
                 .build();
         hotelList.add(hotel);
 
@@ -334,6 +353,7 @@ public class Util {
                 .withPhone("+40 752 285 286")
                 .withEmail("rezervari@journey-pub.ro")
                 .withWebsite("https://www.journey-pub.ro/")
+                .withPhotoId(R.drawable.journeypub_r)
                 .build();
         restaurantList.add(restaurant);
 
@@ -344,6 +364,7 @@ public class Util {
                 .withAddress("Strada Patrichi Gina 3 | Close to Victoriei Square, Bucharest 010449, Romania")
                 .withPhone("+40 751 277 476")
                 .withWebsite("https://www.facebook.com/remodelier")
+                .withPhotoId(R.drawable.remodelier_r)
                 .build();
         restaurantList.add(restaurant);
 
@@ -355,6 +376,7 @@ public class Util {
                 .withPhone("+40 770 214 214")
                 .withWebsite("https://www.facebook.com/AdHocBistro")
                 .withDescription("Unique creations and food design, culinary emersion in Romanian old recipes and flavours.")
+                .withPhotoId(R.drawable.adhoc2_r)
                 .build();
         restaurantList.add(restaurant);
 
@@ -366,6 +388,7 @@ public class Util {
                 .withPhone("+40 784 420 555")
                 .withWebsite("http://www.fiordilatte.ro/")
                 .withEmail("office@fiordilatte.ro")
+                .withPhotoId(R.drawable.fiordilatte_r)
                 .build();
         restaurantList.add(restaurant);
 
@@ -376,6 +399,7 @@ public class Util {
                 .withAddress("Strada Alexandrescu Grigore 1, Bucharest 010621, Romania")
                 .withPhone("+40 21 317 3973")
                 .withWebsite("http://www.high-life.ro/home.php")
+                .withPhotoId(R.drawable.highlife_r)
                 .build();
         restaurantList.add(restaurant);
 
@@ -396,6 +420,7 @@ public class Util {
                         "Patience to wait. For a meal to be cooked in its right way.\n" +
                         "That is why we will ask you, our precious guest, to have „a bit-little-bit of patience” – as one of our greatest writers used to say – himself being a real „bon-viveur”.\n" +
                         "Because, first and foremost, we want you to become our friend more than our occasionally visitor.")
+                .withPhotoId(R.drawable.rocca_r)
                 .build();
         restaurantList.add(restaurant);
 
