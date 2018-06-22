@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Hotel Intercontinental Bucharest"
                 android:layout_alignParentTop="true"
-                android:textSize="20sp"
+                android:textSize="@dimen/itemTitle"
                 android:textColor="@color/colorWhitish"
                 />
             <LinearLayout

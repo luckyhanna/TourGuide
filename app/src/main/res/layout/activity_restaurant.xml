@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/padding_10"
         android:textColor="@color/colorWhitish"
-        android:textSize="28sp"
+        android:textSize="@dimen/detailTitle"
         tools:text="Journey Pub" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/padding_8"
         android:textColor="@color/colorLightGrey"
-        android:textSize="12sp"
+        android:textSize="@dimen/itemSubtitle"
         tools:text="International"/>
 
     <ScrollView
@@ -183,7 +183,7 @@
                 android:paddingTop="@dimen/padding_10"
                 android:text="@string/details"
                 android:textColor="@color/colorWhitish"
-                android:textSize="20sp" />
+                android:textSize="@dimen/detailsSize" />
 
             <ScrollView
                 android:id="@+id/scroll_description"

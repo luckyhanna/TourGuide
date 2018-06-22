@@ -30,4 +30,9 @@
     <dimen name="imageDetailHeight">200dp</dimen>
     <dimen name="scrollDescriptionHeight">150dp</dimen>
 
+    <dimen name="detailTitle">28sp</dimen>
+    <dimen name="detailsSize">20sp</dimen>
+    <dimen name="itemTitle">20sp</dimen>
+    <dimen name="itemSubtitle">12sp</dimen>
+
 </resources>

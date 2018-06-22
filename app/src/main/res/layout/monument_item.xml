@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Muzeul Taranului"
                 android:layout_alignParentTop="true"
-                android:textSize="20sp"
+                android:textSize="@dimen/itemTitle"
                 android:textColor="@color/colorWhitish"
                 android:paddingBottom="@dimen/padding_8"/>
 

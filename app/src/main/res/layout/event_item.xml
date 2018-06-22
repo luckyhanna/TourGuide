@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Concert: Alexandrina and Band"
                 android:layout_alignParentTop="true"
-                android:textSize="20sp"
+                android:textSize="@dimen/itemTitle"
                 android:textColor="@color/colorWhitish"
                 android:paddingBottom="@dimen/padding_8"/>
 

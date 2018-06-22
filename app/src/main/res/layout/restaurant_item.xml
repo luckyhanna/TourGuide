@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Journey Pub"
                 android:layout_alignParentTop="true"
-                android:textSize="20sp"
+                android:textSize="@dimen/itemTitle"
                 android:textColor="@color/colorWhitish"
                 />
             <TextView
@@ -81,7 +81,7 @@
                 android:layout_below="@+id/restaurant_title"
                 android:paddingBottom="@dimen/padding_8"
                 android:textColor="@color/colorLightGrey"
-                android:textSize="12sp"
+                android:textSize="@dimen/itemSubtitle"
                 tools:text="International"/>
 
             <LinearLayout
