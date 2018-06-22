@@ -11,17 +11,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.activity.EventActivity;
 import com.example.hannabotar.tourguideapp.model.Event;
-import com.example.hannabotar.tourguideapp.model.Event;
 import com.example.hannabotar.tourguideapp.util.Constants;
 import com.example.hannabotar.tourguideapp.util.Util;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import butterknife.BindView;

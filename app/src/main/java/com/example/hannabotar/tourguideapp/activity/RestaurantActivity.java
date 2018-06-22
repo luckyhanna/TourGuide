@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -118,7 +117,6 @@ public class RestaurantActivity extends AppCompatActivity {
         scrollDescription.setOnTouchListener(new View.OnTouchListener() {
             public boolean onTouch(View v, MotionEvent event)
             {
-                // Disallow the touch request for parent scroll on touch of child view
                 v.getParent().requestDisallowInterceptTouchEvent(true);
                 return false;
             }

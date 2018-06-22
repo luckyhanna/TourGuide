@@ -11,11 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.activity.RestaurantActivity;
-import com.example.hannabotar.tourguideapp.model.Restaurant;
 import com.example.hannabotar.tourguideapp.model.Restaurant;
 import com.example.hannabotar.tourguideapp.util.Constants;
 
@@ -84,6 +82,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
 
         if (currentRestaurant.getPhone() != null) {
             phoneLayout.setVisibility(View.VISIBLE);
+            restaurantPhone.setVisibility(View.VISIBLE);
             restaurantPhone.setText(currentRestaurant.getPhone());
         } else {
             restaurantPhone.setVisibility(View.GONE);

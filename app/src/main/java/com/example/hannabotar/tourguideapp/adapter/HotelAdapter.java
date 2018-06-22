@@ -12,11 +12,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.activity.HotelActivity;
-import com.example.hannabotar.tourguideapp.model.Hotel;
 import com.example.hannabotar.tourguideapp.model.Hotel;
 import com.example.hannabotar.tourguideapp.util.Constants;
 
@@ -91,6 +89,7 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
 
         if (currentHotel.getWebsite() != null) {
             webLayout.setVisibility(View.VISIBLE);
+            hotelWebsite.setVisibility(View.VISIBLE);
             hotelWebsite.setText(currentHotel.getWebsite());
         } else {
             hotelWebsite.setVisibility(View.GONE);

@@ -11,7 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.hannabotar.tourguideapp.R;
 import com.example.hannabotar.tourguideapp.activity.MonumentActivity;
@@ -76,6 +75,7 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
 
         if (currentMonument.getWebsite() != null) {
             webLayout.setVisibility(View.VISIBLE);
+            monumentWebsite.setVisibility(View.VISIBLE);
             monumentWebsite.setText(currentMonument.getWebsite());
         } else {
             monumentWebsite.setVisibility(View.GONE);

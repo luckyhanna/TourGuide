@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/eventCardHeight"
     android:padding="@dimen/padding_8"
-    app:cardCornerRadius="10dp"
-    app:cardElevation="6dp">
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="@dimen/cardElevation">
 
     <ImageView
         android:id="@+id/background_photo"

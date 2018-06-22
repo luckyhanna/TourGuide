@@ -35,4 +35,9 @@
     <dimen name="itemTitle">20sp</dimen>
     <dimen name="itemSubtitle">12sp</dimen>
 
+    <dimen name="listDividerHeight">10dp</dimen>
+
+    <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+
 </resources>
