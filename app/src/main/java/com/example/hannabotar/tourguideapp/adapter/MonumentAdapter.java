@@ -40,19 +40,9 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
     @BindView(R.id.monument_address)
     TextView monumentAddress;
 
-    @BindView(R.id.monument_phone)
-    TextView monumentPhone;
-
-    @BindView(R.id.monument_email)
-    TextView monumentEmail;
-
     @BindView(R.id.monument_website)
     TextView monumentWebsite;
 
-    @BindView(R.id.phone_layout)
-    RelativeLayout phoneLayout;
-    @BindView(R.id.mail_layout)
-    RelativeLayout mailLayout;
     @BindView(R.id.web_layout)
     RelativeLayout webLayout;
 
@@ -83,21 +73,6 @@ public class MonumentAdapter extends ArrayAdapter<Monument> {
         }
 
         monumentAddress.setText(currentMonument.getAddress());
-
-        if (currentMonument.getPhone() != null) {
-            phoneLayout.setVisibility(View.VISIBLE);
-            monumentPhone.setText(currentMonument.getPhone());
-        } else {
-            monumentPhone.setVisibility(View.GONE);
-            phoneLayout.setVisibility(View.GONE);
-        }
-
-        if (currentMonument.getEmail() != null) {
-            mailLayout.setVisibility(View.VISIBLE);
-            monumentEmail.setText(currentMonument.getEmail());
-        } else {
-            mailLayout.setVisibility(View.GONE);
-        }
 
         if (currentMonument.getWebsite() != null) {
             webLayout.setVisibility(View.VISIBLE);

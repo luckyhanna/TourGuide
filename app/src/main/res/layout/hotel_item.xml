@@ -66,7 +66,7 @@
                 android:id="@+id/hotel_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Hotel Intercontinental"
+                tools:text="Hotel Intercontinental Bucharest"
                 android:layout_alignParentTop="true"
                 android:textSize="20sp"
                 android:textColor="@color/colorWhitish"
@@ -155,70 +155,6 @@
                         android:autoLink="map"
                         android:textColor="@color/colorWhitish"
                         tools:text="Piata Victoriei nr. 34, Sector 1sssssssssssssssssssssssssss"/>
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:id="@+id/phone_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/padding_5">
-                    <ImageView
-                        android:id="@+id/phone_icon"
-                        android:layout_width="@dimen/iconWidth"
-                        android:layout_height="@dimen/iconHeight"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginRight="@dimen/padding_10"
-                        android:layout_marginEnd="@dimen/padding_10"
-                        android:scaleType="fitCenter"
-                        android:scaleX="1"
-                        android:scaleY="1"
-                        android:src="@drawable/phone2" />
-
-                    <TextView
-                        android:id="@+id/hotel_phone"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_toRightOf="@+id/phone_icon"
-                        android:layout_toEndOf="@+id/phone_icon"
-                        android:autoLink="phone"
-                        android:textColor="@color/colorWhitish"
-                        android:textColorLink="@color/colorWhitish"
-                        tools:text="021 222 222"/>
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:id="@+id/mail_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/padding_5">
-                    <ImageView
-                        android:id="@+id/mail_icon"
-                        android:layout_width="@dimen/iconWidth"
-                        android:layout_height="@dimen/iconHeight"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginRight="@dimen/padding_10"
-                        android:layout_marginEnd="@dimen/padding_10"
-                        android:scaleType="fitCenter"
-                        android:scaleX="1"
-                        android:scaleY="1"
-                        android:src="@drawable/email2" />
-
-                    <TextView
-                        android:id="@+id/hotel_email"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_toRightOf="@+id/mail_icon"
-                        android:layout_toEndOf="@+id/mail_icon"
-                        android:autoLink="email"
-                        android:textColor="@color/colorWhitish"
-                        android:textColorLink="@color/colorWhitish"
-                        tools:text="mtr@email.com"/>
                 </RelativeLayout>
 
                 <RelativeLayout

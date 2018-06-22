@@ -8,19 +8,19 @@
 
     <dimen name="monumentCardHeight">200dp</dimen>
     <dimen name="monumentImageHeight">180dp</dimen>
-    <dimen name="monumentImageWidth">130dp</dimen>
+    <dimen name="monumentImageWidth">110dp</dimen>
 
     <dimen name="eventCardHeight">180dp</dimen>
     <dimen name="eventImageHeight">160dp</dimen>
-    <dimen name="eventImageWidth">130dp</dimen>
+    <dimen name="eventImageWidth">110dp</dimen>
 
     <dimen name="hotelCardHeight">200dp</dimen>
     <dimen name="hotelImageHeight">180dp</dimen>
-    <dimen name="hotelImageWidth">130dp</dimen>
+    <dimen name="hotelImageWidth">110dp</dimen>
 
     <dimen name="restaurantCardHeight">200dp</dimen>
     <dimen name="restaurantImageHeight">180dp</dimen>
-    <dimen name="restaurantImageWidth">130dp</dimen>
+    <dimen name="restaurantImageWidth">110dp</dimen>
 
     <dimen name="padding_5">5dp</dimen>
     <dimen name="padding_8">8dp</dimen>

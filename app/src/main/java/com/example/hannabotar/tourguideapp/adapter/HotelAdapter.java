@@ -42,19 +42,9 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
     @BindView(R.id.hotel_address)
     TextView hotelAddress;
 
-    @BindView(R.id.hotel_phone)
-    TextView hotelPhone;
-
-    @BindView(R.id.hotel_email)
-    TextView hotelEmail;
-
     @BindView(R.id.hotel_website)
     TextView hotelWebsite;
 
-    @BindView(R.id.phone_layout)
-    RelativeLayout phoneLayout;
-    @BindView(R.id.mail_layout)
-    RelativeLayout mailLayout;
     @BindView(R.id.web_layout)
     RelativeLayout webLayout;
 
@@ -98,21 +88,6 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
         }
 
         hotelAddress.setText(currentHotel.getAddress());
-
-        if (currentHotel.getPhone() != null) {
-            phoneLayout.setVisibility(View.VISIBLE);
-            hotelPhone.setText(currentHotel.getPhone());
-        } else {
-            hotelPhone.setVisibility(View.GONE);
-            phoneLayout.setVisibility(View.GONE);
-        }
-
-        if (currentHotel.getEmail() != null) {
-            mailLayout.setVisibility(View.VISIBLE);
-            hotelEmail.setText(currentHotel.getEmail());
-        } else {
-            mailLayout.setVisibility(View.GONE);
-        }
 
         if (currentHotel.getWebsite() != null) {
             webLayout.setVisibility(View.VISIBLE);

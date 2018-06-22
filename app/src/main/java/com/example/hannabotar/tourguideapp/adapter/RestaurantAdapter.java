@@ -47,18 +47,8 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
     @BindView(R.id.restaurant_phone)
     TextView restaurantPhone;
 
-    @BindView(R.id.restaurant_email)
-    TextView restaurantEmail;
-
-    @BindView(R.id.restaurant_website)
-    TextView restaurantWebsite;
-
     @BindView(R.id.phone_layout)
     RelativeLayout phoneLayout;
-    @BindView(R.id.mail_layout)
-    RelativeLayout mailLayout;
-    @BindView(R.id.web_layout)
-    RelativeLayout webLayout;
 
     public RestaurantAdapter(@NonNull Context context, @NonNull List<Restaurant> objects) {
         super(context, 0, objects);
@@ -98,21 +88,6 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
         } else {
             restaurantPhone.setVisibility(View.GONE);
             phoneLayout.setVisibility(View.GONE);
-        }
-
-        if (currentRestaurant.getEmail() != null) {
-            mailLayout.setVisibility(View.VISIBLE);
-            restaurantEmail.setText(currentRestaurant.getEmail());
-        } else {
-            mailLayout.setVisibility(View.GONE);
-        }
-
-        if (currentRestaurant.getWebsite() != null) {
-            webLayout.setVisibility(View.VISIBLE);
-            restaurantWebsite.setText(currentRestaurant.getWebsite());
-        } else {
-            restaurantWebsite.setVisibility(View.GONE);
-            webLayout.setVisibility(View.GONE);
         }
 
         imageLayout.setOnClickListener(new View.OnClickListener() {
