@@ -40,4 +40,6 @@
     <dimen name="cardCornerRadius">10dp</dimen>
     <dimen name="cardElevation">6dp</dimen>
 
+    <dimen name="fragmentPadding">12dp</dimen>
+
 </resources>

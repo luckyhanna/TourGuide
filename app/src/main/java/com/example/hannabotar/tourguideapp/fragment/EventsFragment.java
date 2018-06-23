@@ -22,7 +22,7 @@ import butterknife.ButterKnife;
  */
 public class EventsFragment extends Fragment {
 
-    @BindView(R.id.events_list)
+    @BindView(R.id.items_list)
     ListView listView;
 
     public EventsFragment() {
@@ -33,7 +33,7 @@ public class EventsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_events, container, false);
+        View view = inflater.inflate(R.layout.fragment_items, container, false);
 
         ButterKnife.bind(this, view);
 
