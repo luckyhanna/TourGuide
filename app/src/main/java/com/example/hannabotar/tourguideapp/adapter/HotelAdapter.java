@@ -66,12 +66,12 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.hotel_item, parent, false);
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.hotel_item, parent, false);
         }
 
-        ButterKnife.bind(this, listItemView);
+        ButterKnife.bind(this, convertView);
 
         final Hotel currentHotel = getItem(position);
 
@@ -136,6 +136,6 @@ public class HotelAdapter extends ArrayAdapter<Hotel> {
             }
         });
 
-        return listItemView;
+        return convertView;
     }
 }

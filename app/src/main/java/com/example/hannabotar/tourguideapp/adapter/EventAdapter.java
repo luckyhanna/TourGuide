@@ -50,12 +50,12 @@ public class EventAdapter extends ArrayAdapter<Event> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.event_item, parent, false);
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.event_item, parent, false);
         }
 
-        ButterKnife.bind(this, listItemView);
+        ButterKnife.bind(this, convertView);
 
         final Event currentEvent = getItem(position);
 
@@ -86,7 +86,7 @@ public class EventAdapter extends ArrayAdapter<Event> {
             }
         });
 
-        return listItemView;
+        return convertView;
     }
 
 }

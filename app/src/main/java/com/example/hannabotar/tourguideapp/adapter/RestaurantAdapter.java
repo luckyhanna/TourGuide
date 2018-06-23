@@ -55,12 +55,12 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_item, parent, false);
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_item, parent, false);
         }
 
-        ButterKnife.bind(this, listItemView);
+        ButterKnife.bind(this, convertView);
 
         final Restaurant currentRestaurant = getItem(position);
 
@@ -98,6 +98,6 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
             }
         });
 
-        return listItemView;
+        return convertView;
     }
 }
