@@ -37,7 +37,8 @@ public class MonumentsFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        List<Monument> monumentList = Util.getMonuments();
+        Util util = new Util(getContext());
+        List<Monument> monumentList = util.getMonuments();
 
         MonumentAdapter adapter = new MonumentAdapter(view.getContext(), monumentList);
 

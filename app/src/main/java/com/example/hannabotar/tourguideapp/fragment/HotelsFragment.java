@@ -37,7 +37,8 @@ public class HotelsFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        List<Hotel> hotelList = Util.getHotels();
+        Util util = new Util(getContext());
+        List<Hotel> hotelList = util.getHotels();
 
         HotelAdapter adapter = new HotelAdapter(view.getContext(), hotelList);
 

@@ -37,7 +37,8 @@ public class EventsFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        List<Event> eventList = Util.getEvents();
+        Util util = new Util(getContext());
+        List<Event> eventList = util.getEvents();
 
         EventAdapter adapter = new EventAdapter(view.getContext(), eventList);
 

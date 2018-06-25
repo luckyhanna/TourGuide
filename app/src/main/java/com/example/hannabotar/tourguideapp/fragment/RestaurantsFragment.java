@@ -37,7 +37,8 @@ public class RestaurantsFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        List<Restaurant> restaurantList = Util.getRestaurants();
+        Util util = new Util(getContext());
+        List<Restaurant> restaurantList = util.getRestaurants();
 
         RestaurantAdapter adapter = new RestaurantAdapter(view.getContext(), restaurantList);
 

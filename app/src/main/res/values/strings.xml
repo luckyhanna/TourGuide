@@ -17,4 +17,156 @@
     <string name="no_details">No details available.</string>
 
 
+    <!--Monuments-->
+    <string name="monument_1_name">National Village Museum</string>
+    <string name="monument_1_address">Kiseleff Road 28–30, Bucharest 011347, Romania</string>
+    <string name="monument_1_website">http://muzeul-satului.ro/en/</string>
+    <string name="monument_1_phone">+40 21 317 9103</string>
+    <string name="monument_1_email">contact@muzeul-satului.ro</string>
+    <string name="monument_1_description">Herăstrău lakeside, in the middle of the Romanian capital, the visitor everywhere have the joy of meeting a “village” really, monuments and artefacts sec. seventeenth century until the early century. XX; Building representative from important areas of ethnography regained a second life at the National Village Museum “Dimitrie Gusti”.\n\nThe idea of an outdoor museum arrives in Romania since the second half of the nineteenth century.In 1867 Odobescu, eminent scholar, proposes presenting in Universal Exhibition in Paris in a special pavilion, some of folk architecture. Later, scientist Alexander Tzigara Samurcaş would envisage bringing Ethnographic Museum, National Art, Decorative Art and Industrial Art in Bucharest, founded by him in 1906 of “households authentic and complete in all regions most significant inhabited by Romanian” the project materialized in 1909 by exposing the museum of peasant houses in Gorj county.</string>
+
+    <string name="monument_2_name">Herastrau Park</string>
+    <string name="monument_2_address">B-dul Aviatorilor, Bucharest, Romania</string>
+    <string name="monument_2_website">http://www.herastrauparc.ro/</string>
+    <string name="monument_2_phone">+40 786 042 404</string>
+    <string name="monument_2_description">Herăstrău Park (Romanian: Parcul Herăstrău) or King Michael I Park is a large park on the northern side of Bucharest, Romania, around Lake Herăstrău, one of the lakes formed by the Colentina River.</string>
+
+    <string name="monument_3_name">Palace of Parliament</string>
+    <string name="monument_3_address">Izvor St., 2–4, Bucharest 050711, Romania</string>
+    <string name="monument_3_website">http://cic.cdep.ro/en</string>
+    <string name="monument_3_phone">+40 733 558 102</string>
+    <string name="monument_3_description">Starting from an old idea, the building of the Palace of Parliament was built under Nicolae Ceauşescu during a period with high economic hardship. The dictator’s tendency was, on the one hand, to focus all the main bodies of the state in one building and, on the other hand, Ceauşescu wanted a safe place to live under a seismic risk, that would hold up to even a nuclear attack.\n\nFrom an architectural point of view, the Parliament Palace is one of the most controversial buildings in Romania: Anca Petrescu identified it with the Buckingham Palace in London and the Versailles Palace in France, and the architects of the time with the „little Phenian”, with an eclectic style, loaded with contradictory elements.</string>
+
+    <string name="monument_4_name">Romanian Athenaeum</string>
+    <string name="monument_4_address">Str. Franklin 1, Bucharest, Romania</string>
+    <string name="monument_4_website">https://www.fge.org.ro/</string>
+    <string name="monument_4_phone">+40 21 315 6875</string>
+    <string name="monument_4_description">The Romanian Athenaeum is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.\nThe overall style is neoclassical, with some more romantic touches. In front of the building there is a small park and a statue of Romanian poet Mihai Eminescu.\n\nInside, the ground floor hosts an ornate conference hall as large as the auditorium above; the auditorium seats 600 in the stalls and another 52 in loge seating.\n\nA 75-sqm long and 3-m wide fresco by Costin Petrescu decorates the inside of the circular wall of the concert hall. Painted using the al fresco technique, the piece depicts the most important moments of Romanian history, starting with the conquest of Dacia by Roman emperor Trajan and ending with the realization of Greater Romania in 1918.\n\nRecognized as a symbol of Romanian culture, the building has been inscribed in 2007 on the list of the Label of European Heritage sites.</string>
+
+    <string name="monument_5_name">The Art Collections Museum</string>
+    <string name="monument_5_address">111, Calea Victoriei, Bucharest, Romania</string>
+    <string name="monument_5_website">http://mnar.arts.ro/en/museum-of-art-collections</string>
+    <string name="monument_5_phone">+40 21 650 6132</string>
+    <string name="monument_5_description">Inaugurated in 1978 as a Department of the National Museum of Art of Romania, the Art Collections Museum showcases artistic interests that prevailed in Romanian society from the early 20th century onward. Over 30 collections on permanent display incorporate a variety of art pieces and collectibles, ranging from Romanian and European fine and decorative arts to Oriental art. Donated over nearly a century by both collectors and artists, they bear witness to their owners’ taste and economic power, their leaning toward famous names or contemporary art, as well as to the artists’ particular interests, surroundings, and daily studio practice.\n\nWorks by well-known Romanian painters such as Theodor Aman, Nicolae Grigorescu, Ioan Andreescu, Nicolae Tonitza, Gheorghe Petraşcu, Theodor Pallady, Lucian Grigorescu, Iosif Iser, Camil Ressu, Francisc Şirato, Alexandru Ciucurencu, Dimitrie Ghiaţă are exhibited alongside European and Japanese prints and drawings, French furniture, Oriental carpets, and folk icons from Transylvania.\n\nThis unique museum is hosted by the former Romanit palace. The building, an example of modern Bucharest architecture, was recently restored and refurbished. Wherever possible, displays suggest the original layout and atmosphere of individual collections.</string>
+
+    <string name="monument_6_name">Patriarchal Cathedral</string>
+    <string name="monument_6_address">Str Dealul Mitropoliei Piata Unirii, Bucharest, Romania</string>
+    <string name="monument_6_description">The Romanian Orthodox Patriarchal Cathedral (also known as the Metropolitan Church) is a functioning religious and civic landmark, on Dealul Mitropoliei, in Bucharest, Romania. It is located near the Palace of the Chamber of Deputies of the Patriarchate of the Romanian Orthodox Church. Since it is a working cathedral, it is the site of many religious holidays and observances that take place for those who follow the Orthodox Christian faith in Bucharest, including a Palm Sunday pilgrimage. The Orthodox Divine Liturgy at the cathedral is known for its a cappella choir, a common practice shared by all the Orthodox churches, in both their prayer services and liturgical rites. The Romanian Orthodox Patriarchal Cathedral is a designated Historical monument—Monument istoric of Romania.</string>
+
+    <string name="monument_7_name">Triumph Arch</string>
+    <string name="monument_7_address">Piata Arcul de Triumf, Bucharest, Romania</string>
+    <string name="monument_7_description">The Triumphal Arch (Arcul de Triumf) of Bucharest, which is located on the Kiseleff Street, was declared a historical monument in 2004. It is one of the most notable landmarks of the capital and, next to the Parliament Palace, it can be deemed a symbol of Bucharest. The structure of the current Triumphal Arch dates back to 1922, whereas the present decorative elements were added only 16 years later, in 1938, the year when the monument, in its final form, was inaugurated.\n\nHowever, the history of the monument dates back to the mid 19th century. Until 1922, previous versions of the arch were hastily and repeatedly built in 1848, 1859, 1878, 1906 and 1918, in order to mark certain military and political achievements of Romania. Yet, given the perishable nature of the construction material (chiefly wood), these versions did not survive.\n\nThe reinforced concrete structure was inaugurated in 1922, in order to celebrate the victory of Romania in World War One, and the event was attended by the most important political figures of the time, including foreign politicians from Europe, Japan and the USA. The bearing structure of the edifice survived in time, but the decorative elements (bas-reliefs chiefly) were made of plaster, and they decayed rapidly. This is why they were replaced with marble and stone elements, mainly allegorical sculptures realized by sundry artists of the time, under the supervision of Petre Antonescu, the same architect who designed the bearing structure of the 1922 arch.\n\nAt present, the Triumphal Arch dominates the surroundings of the Kiseleff Street, marking the intersection of this thoroughfare with the Constantin Brezan Boulevard, the Alexandru Averescu Boulevard and with the Alexandru Constantinescu Boulevard. It is one of the emblematic monuments of the capital and a tourist sight just as important as the C.E.C. Palace, the Parliament Palace or the Romanian Athenaeum.</string>
+
+    <!--Events-->
+    <string name="event_1_name">Bucharest Jazz Festival 2018</string>
+    <string name="event_1_address">Bucharest, Romania</string>
+    <string name="event_1_description">Bucharest Jazz Festival returns in July with seven days of free live concerts and events for Bucharest-based jazz enthusiasts and tourists. Organized by the City Hall of Bucharest through ARCUB, the festival\'s sixth edition brings to Romania\'s capital, between July 3rd and 9th, 2017, renown names of the international jazz scene, young talents, journalists, theoreticians, musicians and jazz specialists for live concerts in George Enescu Square and special events at ARCUB.</string>
+
+    <string name="event_2_name">Love Yard Sale</string>
+    <string name="event_2_address">Copper\'s Pub, Bucuresti, Romania</string>
+    <string name="event_2_description">LOVE Yard Sale este târgul multor lucruri frumoase care merită încă o șansă să fie iubite, cumpărate și purtate cu drag.\n\nVa invităm la ediţia lunii IULIE în strada HRISTO BOTEV 25, în frumoasa curte de la Copper\'s Pub.\n\nÎn cele două zile de târg, organizate în aer liber, vă așteaptă o varietate de articole în stare foarte bună și bună, multe din ele chiar noi. Ele sunt aduse spre vânzare din motive care de cele mai multe ori țin de o nepotrivire de stil sau de o măsură prea mică sau prea mare. Prețurile nu îți vor da bugetul peste cap, sunt foarte prietenoase.\n\nTineți minte: 7 – 8 IULIE, sâmbătă și duminică, două zile de LOVE Yard Sale, la Coppers Pub.\n\nINTRAREA ESTE GRATUITĂ PENTRU VIZITATORI</string>
+
+    <string name="event_3_name">Sorry nature, I’m late!</string>
+    <string name="event_3_address">Strada Leonida 19, Bucharest, Romania</string>
+
+    <string name="event_4_name">Summer Well 2018</string>
+    <string name="event_4_address">Strada Știrbei Vodă 36, Buftea 070000</string>
+
+    <!--Hotels-->
+    <string name="hotel_1_name">Athenee Palace Hilton Bucharest</string>
+    <string name="hotel_1_address">Str. Episcopiei nr. 1–3, Sector 1, Bucharest 010292, Romania</string>
+    <string name="hotel_1_website">http://www.hiltonhotels.com/ro_RO/romania/athenee-palace-hilton-bucharest/</string>
+    <string name="hotel_1_phone">+40–21–303–3777</string>
+    <string name="hotel_1_description">Near many beautiful and historic attractions, theatres, shops and cafes\n2 restaurants with a range of cuisine, hotel bar and summer terrace\nFitness center and health club with sauna, whirlpool and beauty salon\n13 meeting/functions rooms accommodating up to 900 guests\nBusiness center, Executive Floor and Lounge\nComplimentary WiFi in rooms, restaurants and all public areas\nOver a century of hotel history</string>
+
+    <string name="hotel_2_name">Sheraton Bucharest Hotel</string>
+    <string name="hotel_2_address">Calea Dorobanti 5 – 7, Bucharest 010551, Romania</string>
+    <string name="hotel_2_website">http://sheratonbucharest.com/ro/</string>
+    <string name="hotel_2_phone">+4021 201 5000</string>
+    <string name="hotel_2_description">Here, at Sheraton, you can explore the genuine comfort and the higher level of services of our 270 luxurious rooms and suites, including a Presidential Suite and 27 smart and executive suites, all equipped with our signature Sheraton Sleep Experience® Bed, 42 inch flat screen TV and in-room entertainment, relaxing window corners, from where you can admire a spectacular city view and amazing sunsets on clear sky days.\nEverything you need for an effortless stay awaits you at the Sheraton Club. Enhance your stay and experience a higher level of comfort, complete with special touches that will make your visit to Bucharest an unforgettable one.\nOur elegant restaurants, Avalon and Benihana Japanese Steakhouse and Sushi Bar, combine the best ingredients with the latest cooking techniques, to deliver amazing taste sensations.\nWhether you like to start a day with a workout or just need a boost of energy, our fitness center offers effective training programs for maximum results in minimal time.\nWe know how important it is to escape from routine and relax, so we recently launched the Skyview Pool and SPA, a true oasis with a beautiful panorama both over the city and the blue sky. The pool is provided with a special system that allows you to swim against the current of air or water, three hydromassage areas and also two fountains for cervical massage. All these in a heated water pool, at the perfect temperature.\nFor a complete pampering session, we have also prepared a variety of wellness and SPA treatments.\nDue to its strategic positioning, Sheraton Bucharest Hotel gives you easy access to all city’s areas, among the closest tourist attractions being the old city, famous for its night life and restaurants, the Romanian Atheneum, the romantic Ioanid park, Herastrau park, the biggest park of the city, House of Parliament, the second largest building in the world and Victoriei Avenue, the most famous shopping street.\nThe attention to details is part of our philosophy of making a closer connection to our guests needs and interests. We are just a click away, at your service!</string>
+
+    <string name="hotel_3_name">Radisson Blu Hotel Bucharest</string>
+    <string name="hotel_3_address">63–81 Calea Victoriei, Sector 1, Bucharest 010065, Romania</string>
+    <string name="hotel_3_website">https://www.radissonblu.com/en/hotel-bucharest</string>
+    <string name="hotel_3_phone">+40 21 311 9000</string>
+    <string name="hotel_3_email">info.bucharest@radissonblu.com</string>
+    <string name="hotel_3_description">This centrally-located Bucharest hotel lies near the former Royal Palace, the National Museum of Art and historic Revolution Square. 718 modern rooms designed by Uri Blumenthal and Buki Zuker offer Free high-speed, wireless Internet and individual climate control. Sample steak, seafood, Italian specialties and Mediterranean dishes at the hotel’s on-site restaurants, and have a drink in the cozy lounge or by the pool. A spa and fitness center, outdoor pool and Jacuzzi, and casino provide abundant opportunities for fun and relaxation. 12 meeting rooms with floor-to-ceiling windows and state-of-the-art audiovisual equipment accommodate conferences and special events.</string>
+
+    <string name="hotel_4_name">InterContinental Bucharest</string>
+    <string name="hotel_4_address">Bulevardul Nicolae Bălcescu 4, București 010051, Romania</string>
+    <string name="hotel_4_website">https://www.ihg.com/intercontinental/hotels/gb/en/bucharest/buhha/hoteldetail</string>
+    <string name="hotel_4_phone">+40–21–3102020</string>
+    <string name="hotel_4_email">info.bucharest@radissonblu.com</string>
+    <string name="hotel_4_description">In a striking curved tower overlooking the Old Town, the luxury InterContinental® Bucharest hotel is perfectly placed to explore iconic sights like the giant Palace of Parliament. You can pick out the next city attraction to visit from your private balcony or the rooftop Health Club and terrace. After a meeting with clients, enjoy the sunset from our 21st-floor Club InterContinental Lounge.</string>
+
+    <string name="hotel_5_name">Rembrandt Hotel</string>
+    <string name="hotel_5_address">Strada Smârdan 11, București 030167, Romania</string>
+    <string name="hotel_5_website">http://rembrandt.ro/</string>
+    <string name="hotel_5_phone">+40 727 353–393</string>
+    <string name="hotel_5_email">info@rembrandt.ro</string>
+    <string name="hotel_5_description">Rembrandt Hotel is an intimate and stylish hotel with 16 spacious rooms, located in the middle of the Old City Centre of Bucharest, ideally positioned whether you come for business or leisure.\n\nConsistently a top hotel in Bucharest on the Trip Advisor ranking list, our hotel is well known for its personal service and genuine hospitality, offering guest rooms with comfortable beds, hardwood floors, leather armchairs and spacious bathrooms.\n\nWe are in operation since January 2005 in a beautiful historical building in the Old City, right across the National Bank of Romania. Our street is pedestrian (car access only through National Bank security) so you can enjoy a good night’s sleep away from traffic noises.\n\nIn our many years on the Bucharest accommodation and food service scene, a great number of institutions, companies and people have enjoyed our hospitality. We are always here to welcome you with an intimate and captivating atmosphere!</string>
+
+    <string name="hotel_6_name">Novotel Bucarest City Centre</string>
+    <string name="hotel_6_address">Calea Victoriei 37B | Sector 1, Bucharest 010061, Romania</string>
+    <string name="hotel_6_website">https://www.accorhotels.com/gb/hotel-5558-novotel-bucharest-city-centre/index.shtml</string>
+    <string name="hotel_6_phone">+4021 3088500</string>
+    <string name="hotel_6_email">H5558@accor.com</string>
+    <string name="hotel_6_description">Enjoy contemporary 4-star comfort a few minutes\' walk from the Old Town at Novotel Bucharest City Centre hotel. Clean lines and muted colours make your airy room a haven for work or pleasure. Start your day brightly with a tasty buffet breakfast in the sunlit restaurant, and savour drinks with a view on the terrace at Novotel.</string>
+
+    <string name="hotel_7_name">Hotel Cismigiu</string>
+    <string name="hotel_7_address">Bulevardul Regina Elisabeta 38, Bucharest 050017, Romania</string>
+    <string name="hotel_7_website">http://www.hotelcismigiu.ro/en/Bucharest-Hotel-Cismigiu</string>
+    <string name="hotel_7_phone">+40 314 03 05 00</string>
+    <string name="hotel_7_email">reservations@hotelcismigiu.ro</string>
+    <string name="hotel_7_description">Conveniently located downtown Bucharest, the newly rebuilt Cismigiu Hotel 4*, one century old and one million stories rich, has come to life again.\nCreating a fantastic ambiance, its design melts heritage and novelty, mixing Art Nouveau architecture with contemporary style.</string>
+
+    <!--Restaurants-->
+    <string name="restaurant_1_name">Journey Pub</string>
+    <string name="restaurant_1_type">Pub and more</string>
+    <string name="restaurant_1_cuisine">European, International, Vegetarian Friendly</string>
+    <string name="restaurant_1_address">Str. George Enescu Nr. 25 | Sector 1, Bucharest 010306, Romania</string>
+    <string name="restaurant_1_website">https://www.journey-pub.ro/</string>
+    <string name="restaurant_1_phone">+40 752 285 286</string>
+    <string name="restaurant_1_email">rezervari@journey-pub.ro</string>
+
+    <string name="restaurant_2_name">RE:Modelier</string>
+    <string name="restaurant_2_type">Eatery</string>
+    <string name="restaurant_2_cuisine">American, International, Bar</string>
+    <string name="restaurant_2_address">Strada Patrichi Gina 3 | Close to Victoriei Square, Bucharest 010449, Romania</string>
+    <string name="restaurant_2_website">https://www.facebook.com/remodelier</string>
+    <string name="restaurant_2_phone">+40 751 277 476</string>
+
+    <string name="restaurant_3_name">Ad Hoc Bistro</string>
+    <string name="restaurant_3_type">Bistro</string>
+    <string name="restaurant_3_cuisine">Romanian, Seafood, Soups</string>
+    <string name="restaurant_3_address">C. A. Rosetti 10, Bucharest 010283, Romania</string>
+    <string name="restaurant_3_website">https://www.facebook.com/AdHocBistro</string>
+    <string name="restaurant_3_phone">+40 770 214 214</string>
+    <string name="restaurant_3_description">Unique creations and food design, culinary emersion in Romanian old recipes and flavours.</string>
+
+    <string name="restaurant_4_name">Fior Di Latte</string>
+    <string name="restaurant_4_type">Restaurant</string>
+    <string name="restaurant_4_cuisine">Italian, Mediterranean, European</string>
+    <string name="restaurant_4_address">Bulevardul Primaverii 19–21, Bucharest 011972, Romania</string>
+    <string name="restaurant_4_website">http://www.fiordilatte.ro/</string>
+    <string name="restaurant_4_phone">+40 784 420 555</string>
+    <string name="restaurant_4_email">office@fiordilatte.ro</string>
+
+    <string name="restaurant_5_name">High Life Bistro</string>
+    <string name="restaurant_5_type">Restaurant</string>
+    <string name="restaurant_5_cuisine">European, Italian, Mediterranean</string>
+    <string name="restaurant_5_address">Strada Alexandrescu Grigore 1, Bucharest 010621, Romania</string>
+    <string name="restaurant_5_website">http://www.high-life.ro/home.php</string>
+    <string name="restaurant_5_phone">+40 21 317 3973</string>
+
+    <string name="restaurant_6_name">Rocca by The Jar</string>
+    <string name="restaurant_6_type">Restaurant</string>
+    <string name="restaurant_6_cuisine">Asian, Bar, European</string>
+    <string name="restaurant_6_address">Strada pictor Aman Theodor nr. 36, Bucharest 010778, Romania</string>
+    <string name="restaurant_6_website">http://www.roccabythejar.ro/en/</string>
+    <string name="restaurant_6_phone">+40 21 314 9133</string>
+    <string name="restaurant_6_email">contact@roccabythejar.ro</string>
+    <string name="restaurant_6_description">Some people collect stamps, paintings or even shells.\nAs for ourselves, we’ve tried to put together images, sounds, emotions and flavours fom all the places we’ve seen so far. Especially flavours.\nWe’ve found out that it could be hard to put into words the way a fisherman from Philippines taught us about some thousands of spices which can change the taste of a meal from ordinary to delicious.\nWe’ve found out, as well, that it could be hard to express the same feeling of a „cubano” guy who’s talking freely about „Cuba Libre”. Under Castro.\nThat’s why we’re trying now to reveal all those unspeakable emotions in a different way. Cause we’ve always believed that a „food experience” has to appeal all the six senses. And even more: to generate a seventh one. We’ve brought here, in the Rocca cuisine, all we’ve learnt about the cuisines from abroad.\nAlong with the little secrets, we’ve came back with something hard to define and even harder to find: patience.\nPatience to wait. For a meal to be cooked in its right way.\nThat is why we will ask you, our precious guest, to have „a bit-little-bit of patience” – as one of our greatest writers used to say – himself being a real „bon-viveur”.\nBecause, first and foremost, we want you to become our friend more than our occasionally visitor.</string>
+
+
 </resources>
